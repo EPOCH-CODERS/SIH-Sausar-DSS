@@ -89,3 +89,12 @@ While this repository houses the local prototype, the enterprise deployment arch
 ---
 
 **Disclaimer:** Operational production and maintenance records used in this prototype are synthetic representations based on the MOIL schema, as actual production logs are confidential corporate IP.
+
+commands:
+frontend:
+npm run dev
+
+backend:
+ python -m venv venv .\venv\Scripts\Activate.ps1
+  pip install -r requirements.txt
+   python main.py    
